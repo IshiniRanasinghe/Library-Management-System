@@ -1,0 +1,23 @@
+<div class="parent">
+  <div class="container">
+    <div class="login-box">
+      <h2>Login</h2>
+      <form>
+        <div class="input-box">
+          <input type="text" [(ngModel)]="credentials.username" name="Username" required>
+          <label>Username</label>
+        </div>
+        <div class="input-box">
+          <input type="password" [(ngModel)]="credentials.password" name="Password" required>
+          <label>Password</label>
+        </div>
+        
+        <button type="button" class="btn" (click)="onLogin()">Login</button>
+        
+        <div class="register-link">
+          <span>Don't have an account? <a routerLink="/register">Register</a></span>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

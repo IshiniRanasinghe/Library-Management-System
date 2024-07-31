@@ -1,0 +1,47 @@
+
+.h3-update{
+    position: relative;
+    left: 20px;
+    top: 5px;
+    text-outline: 2 2 #000;
+    color: rgb(145, 148, 200);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.form-control{
+    background-color: rgba(144, 157, 198, 0.5);
+    position: relative;
+    left: 20px;
+    width: 605px;
+    row: gap 5px;
+   
+}
+.col-md-6 {
+    background-color: rgb(37, 46, 80);
+    position: relative;
+    top: 70px;
+    height: 430px;
+    border-radius: 10px;
+    width: 650px;
+}
+.form-group{
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    gap: 5px;   
+}
+
+.btn {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.viewBook-label{
+    position: relative;
+    left: 20px;
+    color: rgb(193, 197, 201);
+    font-family:'Times New Roman';
+    font-size: medium;
+}
+
+

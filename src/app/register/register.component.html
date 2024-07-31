@@ -1,0 +1,22 @@
+<div class="parent">
+  <div class="container">
+    <div class="register-box">
+      <h2>Register</h2>
+      <form (ngSubmit)="onRegister()">
+        <div class="input-box">
+          <input type="text" [(ngModel)]="registerObj.username" name="username" required>
+          <label>Username</label>
+        </div>
+        <div class="input-box">
+          <input type="email" [(ngModel)]="registerObj.email" name="email" required>
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <input type="password" [(ngModel)]="registerObj.password" name="password" required>
+          <label>Password</label>
+        </div>
+        <button type="submit" class="btn">Register</button>
+      </form>
+    </div>
+  </div>
+</div>

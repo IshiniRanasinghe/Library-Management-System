@@ -1,0 +1,37 @@
+.book-view-h3{
+    color: rgb(162, 147, 207);
+    top: 10px;
+    
+    position: relative;
+}
+.book-details-class{
+    background-color: rgb(37, 46, 80);
+    position: relative;
+    left: 340px;
+    top: 70px;
+    height: 380px;
+    border-radius: 10px;
+    width: 650px; 
+    text-align: center; 
+}
+.detail-label{
+    position: relative;
+    display: flex;
+    left: 50px;
+    top: 30px;
+    font-size: larger;
+    gap: 15px;  
+    color: rgb(201, 205, 209);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start; /* optional, align items to the left */
+  }
+
+.book-view-label{
+    color: rgb(136, 145, 212);
+}
