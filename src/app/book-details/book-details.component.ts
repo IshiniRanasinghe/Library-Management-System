@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Book } from '../book';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { BookService } from '../book.service';
 
 @Component({
@@ -12,7 +12,7 @@ export class BookDetailsComponent implements OnInit{
 
   id!: number
   book!: Book
-  constructor(private route:ActivatedRoute,private bookService:BookService){
+  constructor(private route:ActivatedRoute,private bookService:BookService, private router:Router){
   }
 
 
@@ -26,6 +26,9 @@ export class BookDetailsComponent implements OnInit{
     
       
   }
+  goBack(){
+    this.router.navigate(['/books']);
+   }
 
 
 }

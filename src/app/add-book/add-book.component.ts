@@ -19,9 +19,7 @@ export class AddBookComponent implements OnInit {
   ngOnInit(): void {
 
   }
-  goToBookList() {
-    this.router.navigate(['/books']);
-  }        
+          
   saveBook() {
     if (!this.book.title || !this.book.author) {
       Swal.fire({
@@ -79,4 +77,7 @@ export class AddBookComponent implements OnInit {
  goBack(){
   this.router.navigate(['/books']);
  }
+ goToBookList() {
+  this.router.navigate(['/books']);
+}
 }

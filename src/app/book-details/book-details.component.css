@@ -1,9 +1,10 @@
 .book-view-h3{
     color: rgb(162, 147, 207);
-    top: 10px;
-    
+    top: -12px;
+    right: 10px;
     position: relative;
 }
+
 .book-details-class{
     background-color: rgb(37, 46, 80);
     position: relative;
@@ -26,6 +27,8 @@
 }
 
 .details-container {
+    position: relative;
+    bottom: 30px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -34,4 +37,12 @@
 
 .book-view-label{
     color: rgb(136, 145, 212);
+}
+
+.arrow-icon-view{
+    position: relative;
+    right: 300px;
+    top: 20px;
+    cursor: pointer;
+    pointer-events: auto;
 }
